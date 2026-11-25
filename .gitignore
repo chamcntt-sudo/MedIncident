@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# Firebase Admin private keys
+firebase-service-account.json
+*service-account*.json
+hospital-central-db.json
+# Local AI Studio and Firebase generated files
+.aistudio/
+.firebase/
+firebase-applet-config.json
+firebase-blueprint.json
